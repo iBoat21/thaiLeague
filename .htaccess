@@ -1,0 +1,3 @@
+RewriteEngine ON
+
+RewriteRule ^competitions/([a-zA-Z0-9_-]+)$ competitions/details.php?slug=$1 [L,QSA]
